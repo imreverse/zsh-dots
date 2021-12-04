@@ -29,9 +29,9 @@ alias ls="exa --classify --git --group-directories-first --icons --time-style=lo
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-alias HIST="nvim ~/.zsh_history"
-alias ZSH="nvim ~/.zshrc"
-alias ANTIGEN="curl -L git.io/antigen > ${ZDOTDIR}/plugins/antigen.zsh"
+alias zhist="${EDITOR} ${ZDOTDIR}/.zhistory"
+alias zshrc="${EDITOR} ${ZDOTDIR}/.zshrc"
+alias zupdate="curl -L git.io/antigen > ${ZDOTDIR}/plugins/antigen.zsh"
 alias logout="loginctl terminate-user ${USER}"
 
 # Options
