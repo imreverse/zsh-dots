@@ -11,6 +11,7 @@
 # ░                                  ░
 #
 
+
 # Source
 source "${ZDOTDIR}/plugins/antigen.zsh"
 
@@ -42,7 +43,7 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 # Vi Mode
 bindkey -v '^?' backward-delete-char
-bindkey '^[l' autosuggest-accept
+bindkey '^[ ' autosuggest-accept
 bindkey '^[k' history-substring-search-up
 bindkey '^[j' history-substring-search-down
 bindkey '^[[A' history-substring-search-up
