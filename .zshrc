@@ -42,9 +42,9 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 # Vi Mode
 bindkey -v '^?' backward-delete-char
-bindkey '^L' autosuggest-accept
-bindkey '^P' history-substring-search-up
-bindkey '^N' history-substring-search-down
+bindkey '^[l' autosuggest-accept
+bindkey '^[k' history-substring-search-up
+bindkey '^[j' history-substring-search-down
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
