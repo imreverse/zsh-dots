@@ -9,7 +9,7 @@
 # ░ ░ ░ ░ ░░  ░  ░   ░  ░░ ░  ░░   ░ ░
 #   ░ ░          ░   ░  ░  ░   ░     ░ ░
 # ░                                  ░
-# TODO
+#
 
 # Source
 source "${ZDOTDIR}/plugins/antigen.zsh"
